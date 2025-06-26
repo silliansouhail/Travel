@@ -1,0 +1,42 @@
+.sideContainer {
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
+  position: fixed;
+  font-weight: 500;
+  background-color: #141627;
+  color: #d0d4e7;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  gap: 20px;
+  border-right: #1c1f37 solid 1px;
+}
+li button,
+.logOut button {
+  background-color: transparent;
+  display: flex;
+  border: 0;
+  color: #626577;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  width: 210px;
+  height: 48px;
+  border-radius: 10px;
+}
+.activeLink {
+  background-color: #d1f366;
+  color: #141627;
+}
+.linkContainer {
+  margin-top: -50px;
+}
+.logOut {
+  justify-self: end;
+}

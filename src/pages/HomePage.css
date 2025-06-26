@@ -1,0 +1,9 @@
+.sideNav {
+  position: fixed;
+  float: left;
+  width: 20%;
+}
+.mainContent {
+  float: right;
+  width: 80%;
+}
