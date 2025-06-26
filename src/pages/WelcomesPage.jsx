@@ -25,7 +25,7 @@ const WelcomesPage = () => {
     return () => {
       clearInterval(interval);
     };
-  }, [bgImg]);
+  }, []);
 
   const bgStyle = {
     background: `url(${Background_image}) no-repeat`,
